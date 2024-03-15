@@ -1,0 +1,31 @@
+projects:
+  Codegen Project:
+    schemaPath: schema.json
+    includes:
+      - graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+      - API.swift
+    extensions:
+      amplify:
+        codeGenTarget: swift
+        generatedFileName: API.swift
+        docsFilePath: graphql
+        region: eu-west-2
+        apiId: em6yte2ccfav3ow7cqzp7ofxe4
+        frontend: ios
+        maxDepth: 2
+  amplifyyoujournal:
+    schemaPath: graphql/schema.json
+    includes:
+      - graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: swift
+        generatedFileName: API.swift
+        docsFilePath: graphql
+extensions:
+  amplify:
+    version: 3

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key></key>
+	<string></string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.RockyMedia.YouJournal.urls</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>YouJournal</string>
+			</array>
+		</dict>
+		<dict/>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Montserrat-AlternatesBlack-ttf</string>
+		<string>MontserratAlternates-Bold.ttf</string>
+		<string>MontserratAlternates-BoldItalic.ttf</string>
+		<string>MontserratAlternates-ExtraLight.ttf</string>
+		<string>MontserratAlternates-Light.ttf</string>
+		<string>MontserratAlternates-LightItalic.ttf</string>
+		<string>MontserratAlternates-Medium.ttf</string>
+		<string>MontserratAlternates-Regular.ttf</string>
+		<string>MontserratAlternates-SemiBold.ttf</string>
+		<string>MontserratAlternates-Thin.ttf</string>
+	</array>
+</dict>
+</plist>
